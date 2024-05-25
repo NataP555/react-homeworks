@@ -7,7 +7,7 @@ import Badge from '@mui/material/Badge';
 
 import "../Products.css";
 
-const DEFAULT_NUMBER_OF_USERS = 5;
+const DEFAULT_NUMBER_OF_MOVIES = 5;
 
 function Products() {
   const [products, setProducts] = useState([]);

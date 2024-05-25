@@ -1,0 +1,15 @@
+.details{
+    padding: 30px 20px;
+}
+
+.rating{
+    font-weight: bold;
+
+}
+
+.btn{
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
