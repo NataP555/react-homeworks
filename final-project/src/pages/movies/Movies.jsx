@@ -14,10 +14,9 @@ const Movies = () => {
 
   useEffect(() => {
     async function getData () {
+      setIsLoading(true);
       getMovies()
-        .then((data) => {
-          setMovies(data);
-        })
+        .then(setMovies)
         .catch(() => {
           setErrorMessage("Failed");
         })

@@ -13,7 +13,10 @@ export const data = [
         "id": "top1",
         "year": 1994,
         "imdbid": "tt0111161",
-        "imdb_link": "https://www.imdb.com/title/tt0111161"
+        "imdb_link": "https://www.imdb.com/title/tt0111161",
+
+        "trailer_embed_link":"https://www.youtube.com/embed/uYPbbksJxIg",
+        "director": [ "Christopher Nolan" ],
     },
     {
         "rank": 2,
