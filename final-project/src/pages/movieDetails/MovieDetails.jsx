@@ -44,6 +44,7 @@ const MovieDetails = () => {
         <span>{movie.genre} {movie.year}</span>
         <p>{movie.description}</p>
         <span className="rank">Movie rank {movie.rank}</span>
+        <br/>
         <span className="rating">IBM Rating {movie.rating}</span>
         <br/>
         <p>Director: {movie?.director[0]} </p>
